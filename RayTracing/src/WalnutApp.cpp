@@ -13,7 +13,7 @@ class ExampleLayer : public Walnut::Layer
 public:
 	virtual void OnUIRender() override
 	{
-		ImGui::Begin("Settins");
+		ImGui::Begin("Settings");
 		ImGui::Text("Last render: %.3fms", m_LastRenderTime);
 		if (ImGui::Button("Render"))
 		{
